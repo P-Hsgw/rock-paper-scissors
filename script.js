@@ -1,6 +1,7 @@
 const ROCK = "rock";
-const SCISSORS = "scissors";
 const PAPER = "paper";
+const SCISSORS = "scissors";
+
 
 function computerPlay () {
     let choice = Math.floor(Math.random()*3)
@@ -8,14 +9,20 @@ function computerPlay () {
         return ROCK;
     } else if (choice === 1) {
         return SCISSORS;
-    } else {
+    } else if (choice === 2) {
         return PAPER;
     }
 }
 
+let player_choice = prompt("Enter your choice.");
+let computer_choice = computerPlay();
 
-let player_choice = prompt("Enter your choice.")
+function game () {
+    
+}
 
+
+/*
 function humanPlay () {
     if (player_choice.toLocaleLowerCase() == "scissors") {
         return SCISSORS;
@@ -26,8 +33,8 @@ function humanPlay () {
     } else {
         return "Error - please use rock, paper or scissors."
     }
-
 }
 
 console.log(computerPlay())
 console.log(humanPlay())
+*/

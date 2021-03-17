@@ -15,3 +15,19 @@ div.result {
     text-align: center;
 
 }
+
+div.output {
+  text-align: center;
+}
+
+div.outcome {
+  text-align: center;
+}
+
+div.points {
+  padding: 10px;
+}
+
+span {
+  color: red;
+}

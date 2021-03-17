@@ -1,0 +1,17 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+div.result {
+    text-align: center;
+
+}

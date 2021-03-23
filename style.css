@@ -1,3 +1,6 @@
+.container {
+  text-align: center;
+}
 .buttons {
     display: flex;
     align-items: center;
@@ -12,9 +15,9 @@ button {
 }
 
 div.result {
-    text-align: center;
-
+  text-align: center;
 }
+
 
 div.output {
   text-align: center;
@@ -22,6 +25,11 @@ div.output {
 
 div.outcome {
   text-align: center;
+}
+
+.scores {
+  margin-top: 50px;
+
 }
 
 div.points {
